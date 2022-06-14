@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Memory game</title>
+  <link rel="stylesheet" href="css/memory.css">
+</head>
+
+<body>
+  <div class="memory">
+    <div class="control-overlay">
+      <span>Play</span>
+    </div>
+    <div class="container">
+      <div class="info-container">
+        <div class="name">
+          Hello: <span></span>
+        </div>
+        <div class="tries">
+          wrong tries: <span>0</span>
+        </div>
+      </div>
+      <div class="game-box">
+        <div class="image-box" data-person="messi">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/messi.jpeg" alt="">
+          </div>
+        </div>
+        <div class="image-box" data-person="messi">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/messi.jpeg" alt="">
+          </div>
+        </div>
+        <div class="image-box" data-person="salah">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/salah.jpeg" alt="">
+          </div>
+        </div>
+        <div class="image-box" data-person="salah">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/salah.jpeg" alt="">
+          </div>
+        </div>
+        <div class="image-box" data-person="mbappe">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/mbappe.jpeg" alt="">
+          </div>
+        </div>
+        <div class="image-box" data-person="mbappe">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/mbappe.jpeg" alt="">
+          </div>
+        </div>
+        <div class="image-box" data-person="iniesta">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/iniesta.jpeg" alt="">
+          </div>
+        </div>
+        <div class="image-box" data-person="salah">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/salah.jpeg" alt="">
+          </div>
+        </div>
+        <div class="image-box" data-person="salah">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/salah.jpeg" alt="">
+          </div>
+        </div>
+        <div class="image-box" data-person="iniesta">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/iniesta.jpeg" alt="">
+          </div>
+        </div>
+        <div class="image-box" data-person="zidan">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/zidan.jpeg" alt="">
+          </div>
+        </div>
+        <div class="image-box" data-person="zidan">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/zidan.jpeg" alt="">
+          </div>
+        </div>
+        <div class="image-box" data-person="benzema">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/benzema.jpeg" alt="">
+          </div>
+        </div>
+        <div class="image-box" data-person="benzema">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/benzema.jpeg" alt="">
+          </div>
+        </div>
+        <div class="image-box" data-person="treka">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/treka.jpeg" alt="">
+          </div>
+        </div>
+        <div class="image-box" data-person="treka">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/treka.jpeg" alt="">
+          </div>
+        </div>
+        <div class="image-box" data-person="ronaldo">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/ronaldo.jpeg" alt="">
+          </div>
+        </div>
+        <div class="image-box" data-person="ronaldo">
+          <div class="face front"></div>
+          <div class="face back">
+            <img src="images/ronaldo.jpeg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="timer-container">
+        <p>Time Left : <span>60s</span></p>
+        <div class="progress">
+          <div class="liner-progress"></div>
+        </div>
+      </div>
+      <div class="start-button">Start</div>
+    </div>
+  </div>
+  <audio id="success" src="sound/success.mp3" preload="auto"></audio>
+  <audio id="fail" src="sound/fail.mp3" preload="auto"></audio>
+  <audio id="game-over" src="sound/game-over.mp3" preload="auto"></audio>
+  <audio id="win" src="sound/win.mp3" preload="auto"></audio>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
