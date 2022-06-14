@@ -202,10 +202,10 @@ body {
   left: 0;
 }
 .timer-container p {
-  font-size: 20px;
+  font-size: 16px;
   text-align: left;
   margin-bottom: 10px;
-  margin-left: 20px;
+  margin-left: 10px;
   font-weight: bold;
 }
 .timer-container .progress{
