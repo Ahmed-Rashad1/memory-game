@@ -1,5 +1,5 @@
 
-  let duration = 1000;
+  let duration = 500;
   let gameContainer = document.querySelector(".game-box");
   let peogressbar = document.querySelector(".liner-progress");
   let timeSpan = document.querySelector(".timer-container p span");
