@@ -45,7 +45,7 @@ document.querySelector(".start-button").addEventListener('click', () => {
       gameOver()
       document.getElementById("game-over").play()
     }
-  }, duration)
+  }, duration + 250)
 })
 
 
